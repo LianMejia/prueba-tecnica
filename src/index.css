@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.book-container:hover img {
+  transform: translateY(-15px);
+  transition: transform 0.3s ease;
+}
+
+.book-container:hover {
+  cursor: pointer;
+}
+
+.book-cover {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.book-cover:hover {
+  transform: scale(1.05);
+}
